@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  opacity: 0.7;
+}
+
+.navigation-links {
+  margin: 40px;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+}
